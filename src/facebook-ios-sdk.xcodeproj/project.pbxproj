@@ -937,8 +937,6 @@
 				DDB7C34B15A6181100C8DCE6 /* FBSettings.m */,
 				7EE2A6DF16DE7D15009C2BA4 /* FBShareDialogParams.h */,
 				7EE2A6E016DE7D15009C2BA4 /* FBShareDialogParams.m */,
-				9D17A8DB1671774B00AB1148 /* FBSystemAccountStoreAdapter.h */,
-				9D17A8DC1671774B00AB1148 /* FBSystemAccountStoreAdapter.m */,
 				85F29E9315785D72001F0531 /* FBTestSession+Internal.h */,
 				8525A5B8156F2049009F6F3F /* FBTestSession.h */,
 				8525A5B9156F2049009F6F3F /* FBTestSession.m */,
@@ -1351,7 +1349,7 @@
 			name = FacebookSDKIntegrationTests;
 			productName = FacebookSDKIntegrationTests;
 			productReference = 85A44B9F16A8CE05007BE80E /* FacebookSDKIntegrationTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		B9CBC518152537270036AA71 /* FacebookSDKTests */ = {
 			isa = PBXNativeTarget;
@@ -1371,7 +1369,7 @@
 			name = FacebookSDKTests;
 			productName = FacebookSDKTests;
 			productReference = B9CBC519152537270036AA71 /* FacebookSDKTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		D2AAC07D0554694100DB518D /* facebook-ios-sdk */ = {
 			isa = PBXNativeTarget;
@@ -1825,6 +1823,7 @@
 					armv7,
 					armv7s,
 					armv6,
+					arm64,
 				);
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/facebook_ios_sdk.dst;
@@ -1851,6 +1850,7 @@
 					armv7,
 					armv7s,
 					armv6,
+					arm64,
 				);
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DSTROOT = /tmp/facebook_ios_sdk.dst;
@@ -1982,6 +1982,7 @@
 					armv7,
 					armv7s,
 					armv6,
+					arm64,
 				);
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DSTROOT = /tmp/facebook_ios_sdk.dst;
@@ -2083,6 +2084,7 @@
 					armv7,
 					armv7s,
 					armv6,
+					arm64,
 				);
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/facebook_ios_sdk.dst;
